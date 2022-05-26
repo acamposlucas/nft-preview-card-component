@@ -73,3 +73,31 @@ export const NFTTimer = styled.span`
     margin-right: 0.2rem;
   }
 `;
+
+export const Creator = styled.div`
+  align-items: center;
+  border-top: 1px solid var(--line);
+  display: flex;
+  gap: 1rem;
+  padding-top: 1rem;
+`;
+
+export const CreatorImg = styled.img`
+  border-radius: 100%;
+  border: 1px solid var(--white);
+  height: 35px;
+  width: 35px;
+`;
+
+export const CreatorInfo = styled.p`
+  color: var(--soft-blue);
+
+  span {
+    color: var(--white);
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--cyan);
+    }
+  }
+`;
