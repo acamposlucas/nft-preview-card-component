@@ -2,7 +2,6 @@ import {
   Container,
   Image,
   Title,
-  TitleID,
   Text,
   NFTInformation,
   NFTPrice,
@@ -13,13 +12,12 @@ import {
 } from "./styles";
 import imageEquilibrium from "../../assets/images/image-equilibrium.jpg";
 import creatorImg from "../../assets/images/image-avatar.png";
-import { ReactComponent as LogoNFT } from "../../assets/images/icon-view.svg";
 export default function Card() {
   return (
     <Container>
       <Image src={imageEquilibrium} alt="Equilibrium" />
       <Title>
-        Equilibrium <TitleID>#3429</TitleID>
+        Equilibrium <span>#3429</span>
       </Title>
       <Text>Our Equilibrium collection promotes balance and calm.</Text>
       <NFTInformation>

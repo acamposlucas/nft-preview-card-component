@@ -21,10 +21,11 @@ export const Title = styled.h1`
   font-size: 22px;
   font-weight: var(--bold);
   margin: 1rem 0;
-`;
-
-export const TitleID = styled.span`
-  color: var(--white);
+  transition: color 0.2s;
+  width: fit-content;
+  &:hover {
+    color: var(--cyan);
+  }
 `;
 
 export const Text = styled.p`
