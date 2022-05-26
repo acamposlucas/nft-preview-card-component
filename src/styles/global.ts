@@ -9,7 +9,11 @@ export const GlobalStyle = createGlobalStyle`
         --card-bg: hsl(216, 50%, 16%);
         --line: hsl(215, 32%, 27%);
     
-        --white: hsl(0, 0, 100%);
+        --white: hsl(0, 0%, 100%);
+
+        --bold: 600;
+        --regular: 400;
+        --light: 300;
     }
 
     * {
@@ -21,7 +25,7 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background-color: var(--main-bg);
         display: grid;
-        font-size: 18px;
+        font-size: 16px;
         place-items: center;
         min-height: 100vh;
     }
