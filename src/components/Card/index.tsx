@@ -14,7 +14,6 @@ import {
 } from "./styles";
 import imageEquilibrium from "../../assets/images/image-equilibrium.jpg";
 import creatorImg from "../../assets/images/image-avatar.png";
-import iconView from "../../assets/images/icon-view.svg";
 
 export default function Card() {
   return (

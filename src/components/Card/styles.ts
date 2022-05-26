@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import ethereum from "../../assets/images/icon-ethereum.svg";
 import timer from "../../assets/images/icon-clock.svg";
-import imageEquilibrium from "../../assets/images/image-equilibrium.jpg";
 import iconView from "../../assets/images/icon-view.svg";
 
 export const Container = styled.div`
