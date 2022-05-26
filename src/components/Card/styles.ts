@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import ethereum from "../../assets/images/icon-ethereum.svg";
+import timer from "../../assets/images/icon-clock.svg";
 
 export const Container = styled.div`
   background-color: var(--card-bg);
@@ -28,4 +30,46 @@ export const TitleID = styled.span`
 export const Text = styled.p`
   color: var(--soft-blue);
   font-weight: var(--light);
+`;
+
+export const NFTInformation = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+`;
+
+export const NFTPrice = styled.span`
+  color: var(--cyan);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+
+  &:before {
+    content: "";
+    background-image: url(${ethereum});
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 12px;
+    height: 16px;
+    display: block;
+    margin-right: 0.2rem;
+  }
+`;
+
+export const NFTTimer = styled.span`
+  color: var(--soft-blue);
+  display: flex;
+  align-items: center;
+
+  &:before {
+    content: "";
+    background-image: url(${timer});
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin-right: 0.2rem;
+  }
 `;
