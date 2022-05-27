@@ -47,6 +47,19 @@ export const Image = styled.img`
   border-radius: 8px;
 `;
 
+export const SelectButton = styled.button`
+  border: none;
+  background-color: transparent;
+  color: var(--white);
+  font-size: 22px;
+  font-weight: var(--bold);
+  margin: 1rem 0;
+
+  &:hover {
+    color: var(--cyan);
+  }
+`;
+
 export const Title = styled.h1`
   color: var(--white);
   font-size: 22px;
@@ -55,6 +68,7 @@ export const Title = styled.h1`
   transition: color 0.2s;
   width: fit-content;
   cursor: pointer;
+
   &:hover {
     color: var(--cyan);
   }
